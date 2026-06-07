@@ -1,0 +1,75 @@
+
+{% extends "tracker/layout.html" %}
+
+{% block body %}
+
+<div class="container mt-5">
+
+    <div class="card mx-auto" style="max-width: 500px;">
+
+        <div class="card-body">
+
+            <h2 class="text-center mb-4">
+
+                Edit Food
+
+            </h2>
+
+            <form method="POST">
+
+                {% csrf_token %}
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+
+                        Food Name
+
+                    </label>
+
+                    <input
+                        type="text"
+                        class="form-control"
+                        value="{{ food.name }}"
+                        disabled
+                    >
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+
+                        Quantity (grams)
+
+                    </label>
+
+                    <input
+                        type="number"
+                        name="food-amount"
+                        class="form-control"
+                        value="{{ food.grams }}"
+                        required
+                    >
+
+                </div>
+
+                <button
+                    type="submit"
+                    class="btn btn-primary w-100"
+                >
+
+                    Save Changes
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
+

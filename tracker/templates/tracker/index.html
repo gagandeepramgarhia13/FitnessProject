@@ -1,0 +1,36 @@
+{% extends "tracker/layout.html" %}
+{% load static %}
+
+{% block body %}
+  {% if user.is_authenticated %}
+    <div class="container">
+      <div class="summary-box text-center">
+        <h2 class="mb-4">{{ user.first_name }}'s Daily Summary</h2>
+        <div class="summary-info">
+          <div class="mb-4">
+            <h3 class="fw-bold">Goal:</h3>
+            <p class="fs-5">{{ calorie_goal }}</p>
+          </div>
+          <div class="mb-4">
+            <h3 class="fw-bold">Calories Remaining:</h3>
+            <p class="fs-5">{{ calories_remaining }}</p>
+          </div>
+          <div class="mb-4">
+            <a href="{% url 'food' %}"><h3 class="fw-bold">Food:</h3></a>
+            <p class="fs-5">{{ total_calorie_gain }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% else %}
+    <div class="container text-center">
+      <h1>The user is not authenticated</h1>
+      <h1>Reach your fitness goal</h1>
+      <h2>Register now</h2>
+    </div>
+  {% endif %}
+{% endblock %}
+
+{% block script %}
+  <!-- Add any necessary scripts here -->
+{% endblock %}

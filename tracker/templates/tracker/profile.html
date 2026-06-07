@@ -1,0 +1,77 @@
+{% extends "tracker/layout.html" %}
+
+{% block body %}
+<div class="profile-box">
+    <h2>{{ user.first_name }}'s Profile</h2>
+
+    <form method="post" action="{% url 'edit_profile' %}">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="id_height">Height (cm):</label>
+            <div class="input-group">
+                <input type="number" id="id_height" name="height" class="form-control" value="{{ person.height }}" required readonly>
+                <div class="input-group-append">
+                    <button type="button" class="btn btn-secondary edit-btn" data-target="id_height">Edit</button>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="id_weight">Weight (lbs):</label>
+            <div class="input-group">
+                <input type="number" id="id_weight" name="weight" class="form-control" value="{{ person.weight }}" required readonly>
+                <div class="input-group-append">
+                    <button type="button" class="btn btn-secondary edit-btn" data-target="id_weight">Edit</button>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="id_goalweight">Goal Weight (lbs):</label>
+            <div class="input-group">
+                <input type="number" id="id_goalweight" name="goalweight" class="form-control" value="{{ person.goalweight }}" required readonly>
+                <div class="input-group-append">
+                    <button type="button" class="btn btn-secondary edit-btn" data-target="id_goalweight">Edit</button>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="id_activity">Activity Level [1 (Sedentary) - 4 (Very Active)]:</label>
+            <div class="input-group">
+                <input type="number" id="id_activity" name="activity" class="form-control" value="{{ person.activity }}" min="1" max="4" required readonly>
+                <div class="input-group-append">
+                    <button type="button" class="btn btn-secondary edit-btn" data-target="id_activity">Edit</button>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="id_goalcalorie">Goal Calories:</label>
+            <div class="input-group">
+                <input type="number" id="id_goalcalorie" name="goalcalorie" class="form-control" value="{{ person.goalcalorie }}" required readonly>
+                <div class="input-group-append">
+                    <button type="button" class="btn btn-secondary edit-btn" data-target="id_goalcalorie">Edit</button>
+                </div>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+    </form>
+
+    <hr>
+    <h3>Change Password</h3>
+    <a href="{% url 'change_password' %}" class="btn btn-primary">Change Password</a>
+
+</div>
+{% endblock %}
+
+{% block script %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const editButtons = document.querySelectorAll('.edit-btn');
+        editButtons.forEach(button => {
+            const id = button.dataset.target
+            button.addEventListener('click', () => {
+                document.querySelector(`#${id}`).removeAttribute('readonly');
+            })
+        })
+    })
+</script>
+{% endblock %}

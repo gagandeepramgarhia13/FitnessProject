@@ -1,0 +1,129 @@
+{% extends "tracker/layout.html" %}
+{% load static %}
+
+{% block body %}
+
+<div id="add-food" class="text-center">
+
+    <div class="container">
+
+        <h2 class="text-center mb-4">
+            Add Food for {{ meal }}
+        </h2>
+
+        <div class="card mx-auto" style="max-width: 400px;">
+
+            <div class="card-body">
+
+                <form action="{% url 'addFood' meal=meal %}?date={{ selected_date|date:'Y-m-d' }}" method="POST">
+
+                    {% csrf_token %}
+
+                    <div class="mb-3">
+
+                        <label for="food-name" class="form-label">
+                            Food Name:
+                        </label>
+
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="food-name"
+                            name="food-name"
+                            required
+                        >
+
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label for="food-amount" class="form-label">
+                            Quantity (In Grams):
+                        </label>
+
+                        <input
+                            type="number"
+                            class="form-control"
+                            id="food-amount"
+                            name="food-amount"
+                            required
+                        >
+
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+
+                        <button
+                            type="submit"
+                            class="btn btn-primary"
+                        >
+                            Add Food
+                        </button>
+
+                        <button
+                            id="get_info"
+                            type="button"
+                            class="btn btn-secondary"
+                            onclick="foodinfo()"
+                        >
+                            Get Info
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <!-- FOOD DETAILS TABLE -->
+
+        <div id="food-details" class="mt-4">
+
+            <table class="table table-bordered">
+
+                <tbody>
+
+                    <tr>
+                        <td>Calories</td>
+                        <td id="food-calories">0</td>
+                    </tr>
+
+                    <tr>
+                        <td>Fat Total (g)</td>
+                        <td id="food-fat">0</td>
+                    </tr>
+
+                    <tr>
+                        <td>Protein (g)</td>
+                        <td id="food-protein">0</td>
+                    </tr>
+
+                    <tr>
+                        <td>Carbohydrates Total (g)</td>
+                        <td id="food-carbs">0</td>
+                    </tr>
+
+                    <tr>
+                        <td>Fibre Total (g)</td>
+                        <td id="food-fibre">0</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+            <p id="food-serving-size"></p>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
+
+{% block script %}
+<script src="{% static 'tracker/addFood.js' %}"></script>
+{% endblock %}

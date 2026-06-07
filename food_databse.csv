@@ -1,0 +1,524 @@
+name,serving_size_g,calories,protein,carbs,fat,fibre
+Egg,100,155.0,13.0,1.1,11.0,0.0
+Tandoori Egg,100,179.5,14.3,1.3,9.8,0.0
+Boiled Egg,100,141.1,12.6,1.2,9.5,0.0
+Grilled Egg,100,174.8,13.8,1.1,12.3,0.0
+Masala Egg,100,139.9,14.8,1.2,11.0,0.0
+High Protein Egg,100,191.4,13.0,1.0,9.8,0.0
+Low Fat Egg,100,172.3,14.8,1.2,12.0,0.0
+Diet Egg,100,160.0,13.9,1.3,12.4,0.0
+Fried Egg,100,170.8,14.4,1.0,10.5,0.0
+Chicken Breast,100,165.0,31.0,0.0,3.6,0.0
+Boiled Chicken Breast,100,157.9,31.2,0.0,4.2,0.0
+Loaded Chicken Breast,100,152.6,33.8,0.0,3.5,0.0
+Low Fat Chicken Breast,100,164.1,36.5,0.0,3.4,0.0
+Veg Chicken Breast,100,192.9,28.4,0.0,4.4,0.0
+High Protein Chicken Breast,100,177.3,36.1,0.0,3.3,0.0
+Homestyle Chicken Breast,100,191.5,32.9,0.0,3.8,0.0
+Spicy Chicken Breast,100,169.4,37.2,0.0,3.9,0.0
+Fish Curry,100,140.0,20.0,4.0,5.0,0.0
+Loaded Fish Curry,100,144.7,24.0,4.2,6.4,0.0
+Boiled Fish Curry,100,126.6,22.3,4.4,5.5,0.0
+Fried Fish Curry,100,157.4,18.7,4.1,5.3,0.0
+Tandoori Fish Curry,100,168.9,19.6,4.2,4.7,0.0
+Cheese Fish Curry,100,168.7,19.8,4.4,5.6,0.0
+Classic Fish Curry,100,163.4,21.2,4.5,5.4,0.0
+Veg Fish Curry,100,141.9,18.1,4.7,6.2,0.0
+Diet Fish Curry,100,141.1,18.3,4.7,6.4,0.0
+Grilled Fish,100,128.0,26.0,0.0,2.7,0.0
+Homestyle Grilled Fish,100,127.1,30.2,0.0,2.6,0.0
+Loaded Grilled Fish,100,147.9,25.0,0.0,3.5,0.0
+Boiled Grilled Fish,100,134.8,27.4,0.0,2.6,0.0
+Healthy Grilled Fish,100,141.6,25.2,0.0,2.4,0.0
+Fried Grilled Fish,100,125.5,30.5,0.0,2.4,0.0
+Tandoori Grilled Fish,100,145.2,25.1,0.0,3.4,0.0
+Veg Grilled Fish,100,136.4,29.5,0.0,2.5,0.0
+Diet Grilled Fish,100,134.5,26.7,0.0,3.2,0.0
+Paneer,100,265.0,18.0,3.0,20.0,0.0
+Tandoori Paneer,100,256.1,18.6,3.1,19.5,0.0
+Boiled Paneer,100,324.1,18.6,3.5,22.0,0.0
+Grilled Paneer,100,331.2,20.7,3.6,25.3,0.0
+Classic Paneer,100,253.9,18.8,2.9,20.6,0.0
+Spicy Paneer,100,273.6,21.5,2.9,24.1,0.0
+Loaded Paneer,100,277.7,21.4,3.6,22.0,0.0
+Low Fat Paneer,100,252.9,17.8,3.6,22.2,0.0
+Healthy Paneer,100,307.9,16.5,3.2,21.5,0.0
+Tofu,100,144.0,15.0,4.0,8.0,1.0
+Fried Tofu,100,150.0,17.7,4.3,8.9,0.9
+Grilled Tofu,100,133.7,16.5,4.3,7.9,1.0
+Healthy Tofu,100,163.4,14.9,3.9,7.3,1.1
+Boiled Tofu,100,152.6,17.7,4.7,6.8,1.1
+Veg Tofu,100,158.0,13.9,4.2,8.6,0.9
+Masala Tofu,100,147.2,13.8,3.9,7.8,1.0
+Diet Tofu,100,157.0,14.9,4.8,9.7,1.1
+Low Fat Tofu,100,163.3,16.0,4.7,7.2,1.2
+Greek Yogurt,100,59.0,10.0,3.6,0.4,0.0
+High Protein Greek Yogurt,100,65.6,11.2,3.5,0.5,0.0
+Boiled Greek Yogurt,100,63.2,11.7,4.2,0.4,0.0
+Loaded Greek Yogurt,100,58.8,9.0,4.1,0.5,0.0
+Masala Greek Yogurt,100,68.4,10.7,3.7,0.3,0.0
+Healthy Greek Yogurt,100,71.3,11.7,3.8,0.5,0.0
+Fried Greek Yogurt,100,56.2,9.4,3.6,0.5,0.0
+Veg Greek Yogurt,100,70.9,11.7,3.5,0.4,0.0
+Tandoori Greek Yogurt,100,69.2,11.7,3.7,0.5,0.0
+Whey Protein Shake,100,120.0,24.0,3.0,1.5,0.0
+Veg Whey Protein Shake,100,140.9,24.6,3.3,1.8,0.0
+Low Fat Whey Protein Shake,100,114.7,26.6,3.0,1.3,0.0
+Fried Whey Protein Shake,100,116.4,28.2,3.0,1.8,0.0
+Cheese Whey Protein Shake,100,117.4,26.4,3.1,1.5,0.0
+Classic Whey Protein Shake,100,140.5,24.1,3.2,1.7,0.0
+Grilled Whey Protein Shake,100,121.9,21.8,3.5,1.5,0.0
+Masala Whey Protein Shake,100,149.3,21.9,3.2,1.5,0.0
+Spicy Whey Protein Shake,100,126.3,28.7,2.8,1.9,0.0
+Grilled Boiled Egg,100,82.0,7.5,0.7,6.0,0.0
+Masala Boiled Egg,100,73.6,7.4,0.6,6.1,0.0
+Classic Boiled Egg,100,89.2,6.7,0.6,6.1,0.0
+Veg Boiled Egg,100,90.6,6.0,0.6,5.5,0.0
+Healthy Boiled Egg,100,78.5,6.1,0.7,6.0,0.0
+Tandoori Boiled Egg,100,82.3,6.9,0.6,6.4,0.0
+Low Fat Boiled Egg,100,90.3,6.9,0.6,6.1,0.0
+Spicy Boiled Egg,100,72.7,7.5,0.6,5.2,0.0
+Omelette,100,154.0,11.0,2.0,11.0,0.0
+Fried Omelette,100,160.9,12.0,1.9,12.8,0.0
+Grilled Omelette,100,151.8,12.1,1.8,13.1,0.0
+Loaded Omelette,100,144.3,11.3,1.9,14.1,0.0
+Low Fat Omelette,100,141.3,10.7,2.3,11.6,0.0
+Homestyle Omelette,100,174.6,13.2,2.2,14.1,0.0
+Diet Omelette,100,171.6,12.3,2.1,13.5,0.0
+Boiled Omelette,100,187.0,12.4,2.1,10.6,0.0
+Tandoori Omelette,100,173.0,12.4,2.1,12.5,0.0
+Salmon,100,208.0,20.0,0.0,13.0,0.0
+Boiled Salmon,100,197.3,19.4,0.0,15.2,0.0
+Masala Salmon,100,216.9,21.3,0.0,12.3,0.0
+High Protein Salmon,100,253.1,21.5,0.0,16.1,0.0
+Low Fat Salmon,100,214.9,18.0,0.0,15.5,0.0
+Cheese Salmon,100,256.6,20.5,0.0,14.2,0.0
+Spicy Salmon,100,203.3,19.3,0.0,11.2,0.0
+Diet Salmon,100,236.6,20.4,0.0,13.8,0.0
+Veg Salmon,100,232.5,18.2,0.0,14.4,0.0
+Tuna,100,132.0,28.0,0.0,1.0,0.0
+Tandoori Tuna,100,133.9,29.0,0.0,1.2,0.0
+Classic Tuna,100,162.7,28.7,0.0,1.1,0.0
+Fried Tuna,100,121.2,33.2,0.0,0.9,0.0
+Homestyle Tuna,100,120.7,25.5,0.0,1.2,0.0
+Cheese Tuna,100,129.8,29.2,0.0,1.3,0.0
+Grilled Tuna,100,130.6,28.3,0.0,1.3,0.0
+High Protein Tuna,100,154.7,26.6,0.0,1.1,0.0
+Loaded Tuna,100,145.4,32.8,0.0,1.3,0.0
+Masala Dosa,100,173.0,4.0,26.0,5.0,2.0
+Diet Masala Dosa,100,176.7,4.1,26.3,5.4,2.0
+Masala Masala Dosa,100,207.1,4.6,24.2,6.4,2.2
+Tandoori Masala Dosa,100,205.9,4.4,26.8,5.9,2.4
+Low Fat Masala Dosa,100,172.1,4.6,27.6,5.3,2.1
+Boiled Masala Dosa,100,200.0,3.9,30.0,6.1,1.9
+High Protein Masala Dosa,100,209.1,3.9,27.0,5.6,2.0
+Cheese Masala Dosa,100,157.4,4.6,24.8,4.7,2.3
+Grilled Masala Dosa,100,176.3,4.7,28.9,4.9,1.8
+Plain Dosa,100,133.0,3.5,20.0,3.7,1.2
+Low Fat Plain Dosa,100,151.8,3.8,20.9,4.5,1.1
+Boiled Plain Dosa,100,130.0,3.9,19.8,4.1,1.3
+Veg Plain Dosa,100,144.4,3.6,22.5,3.7,1.3
+Masala Plain Dosa,100,132.3,3.4,18.7,3.5,1.1
+Classic Plain Dosa,100,144.6,4.0,19.1,3.5,1.3
+Homestyle Plain Dosa,100,153.4,4.2,21.1,3.6,1.1
+Healthy Plain Dosa,100,128.7,3.4,19.1,3.2,1.3
+Cheese Plain Dosa,100,132.5,4.2,21.3,4.3,1.1
+Idli,100,58.0,2.0,12.0,0.4,0.8
+Loaded Idli,100,61.9,2.0,14.3,0.4,0.9
+Cheese Idli,100,54.5,1.8,12.6,0.4,0.9
+Homestyle Idli,100,55.3,2.3,14.2,0.4,0.8
+Boiled Idli,100,63.5,2.0,12.9,0.5,0.9
+Grilled Idli,100,59.9,2.3,11.9,0.4,0.8
+Diet Idli,100,63.7,1.8,14.3,0.4,0.9
+High Protein Idli,100,64.9,2.0,11.1,0.4,0.9
+Veg Idli,100,55.4,2.0,13.3,0.4,0.7
+Sambar,100,70.0,3.0,10.0,2.0,2.0
+High Protein Sambar,100,82.3,3.3,11.0,2.5,2.1
+Masala Sambar,100,76.3,3.3,11.7,2.4,1.8
+Veg Sambar,100,67.1,3.0,11.2,2.2,2.0
+Loaded Sambar,100,66.0,3.3,11.1,2.5,2.1
+Homestyle Sambar,100,75.1,2.8,9.1,2.1,2.0
+Boiled Sambar,100,69.1,2.8,11.9,2.5,2.1
+Low Fat Sambar,100,86.3,3.6,11.0,1.9,1.8
+Cheese Sambar,100,81.5,3.1,11.0,2.5,1.9
+Chapati,100,120.0,3.0,18.0,3.0,2.0
+Diet Chapati,100,122.0,3.3,20.8,3.0,2.2
+Classic Chapati,100,120.1,3.6,20.6,3.3,2.1
+Tandoori Chapati,100,121.2,3.0,21.4,3.1,2.1
+Homestyle Chapati,100,149.5,3.3,19.1,3.1,1.9
+Boiled Chapati,100,123.2,3.4,19.6,3.6,1.9
+Masala Chapati,100,131.1,3.5,18.6,3.5,1.9
+Spicy Chapati,100,148.9,3.2,17.5,2.8,2.1
+Loaded Chapati,100,131.2,2.8,21.6,3.8,2.1
+Rice,100,130.0,2.7,28.0,0.3,0.4
+Boiled Rice,100,155.0,3.2,27.2,0.3,0.4
+Tandoori Rice,100,158.9,2.8,32.6,0.4,0.4
+Fried Rice,100,152.9,2.8,33.0,0.3,0.5
+Homestyle Rice,100,129.9,2.7,30.1,0.4,0.4
+High Protein Rice,100,123.8,2.9,28.1,0.3,0.4
+Healthy Rice,100,137.7,2.7,26.8,0.3,0.4
+Loaded Rice,100,127.6,3.1,25.6,0.4,0.4
+Classic Rice,100,153.9,2.7,30.8,0.4,0.5
+Chicken Biryani,100,290.0,15.0,32.0,11.0,1.5
+Homestyle Chicken Biryani,100,271.1,17.6,28.9,10.1,1.7
+Grilled Chicken Biryani,100,359.5,13.8,36.3,10.7,1.6
+Fried Chicken Biryani,100,301.3,13.9,32.0,12.7,1.6
+Healthy Chicken Biryani,100,357.8,16.3,37.3,11.8,1.6
+Diet Chicken Biryani,100,323.7,14.6,35.4,10.8,1.5
+Spicy Chicken Biryani,100,270.2,17.9,36.1,12.8,1.4
+Boiled Chicken Biryani,100,277.9,14.8,29.1,11.0,1.4
+Veg Chicken Biryani,100,297.4,15.4,31.1,11.4,1.7
+Paneer Butter Masala,100,320.0,10.0,9.0,28.0,1.0
+Fried Paneer Butter Masala,100,390.2,9.4,9.3,27.0,1.0
+Veg Paneer Butter Masala,100,289.1,11.4,10.5,32.3,0.9
+Loaded Paneer Butter Masala,100,337.5,10.0,9.7,31.9,1.0
+Boiled Paneer Butter Masala,100,316.0,11.5,8.6,28.6,1.0
+Diet Paneer Butter Masala,100,314.6,10.7,9.7,36.3,1.0
+Classic Paneer Butter Masala,100,397.5,11.0,8.8,30.9,1.1
+Low Fat Paneer Butter Masala,100,371.4,9.1,9.7,30.1,1.2
+Homestyle Paneer Butter Masala,100,320.1,11.4,9.7,28.2,1.1
+Dal Tadka,100,116.0,6.0,18.0,2.0,5.0
+Diet Dal Tadka,100,116.9,6.2,19.3,2.4,4.6
+High Protein Dal Tadka,100,116.4,6.7,17.1,1.8,5.3
+Tandoori Dal Tadka,100,143.8,6.4,21.1,2.4,4.9
+Masala Dal Tadka,100,137.9,6.3,20.6,2.4,5.0
+Cheese Dal Tadka,100,109.1,7.1,17.0,2.6,5.8
+Fried Dal Tadka,100,133.8,7.2,21.4,2.4,5.0
+Boiled Dal Tadka,100,136.5,5.4,19.1,2.1,5.5
+Grilled Dal Tadka,100,131.7,6.5,20.6,2.5,4.7
+Rajma Chawal,100,180.0,6.0,30.0,3.0,5.0
+Low Fat Rajma Chawal,100,202.0,6.2,33.3,3.4,4.7
+Homestyle Rajma Chawal,100,164.9,5.5,36.0,2.7,4.9
+Grilled Rajma Chawal,100,195.9,6.1,30.3,3.8,5.5
+Diet Rajma Chawal,100,196.0,6.5,33.5,3.7,5.5
+Healthy Rajma Chawal,100,214.5,6.5,35.5,2.9,5.5
+Spicy Rajma Chawal,100,175.7,6.2,29.1,3.0,6.0
+Veg Rajma Chawal,100,185.1,7.0,32.8,2.6,4.9
+Boiled Rajma Chawal,100,223.0,7.1,34.4,2.7,4.8
+Chole,100,164.0,9.0,27.0,3.0,8.0
+Tandoori Chole,100,151.5,10.2,26.0,2.8,9.3
+Diet Chole,100,166.5,8.5,31.6,2.6,9.3
+Grilled Chole,100,155.9,8.5,26.3,2.8,8.8
+Cheese Chole,100,149.1,8.1,30.7,2.9,8.0
+Spicy Chole,100,157.6,8.2,30.3,3.3,9.0
+Low Fat Chole,100,174.9,10.2,28.5,2.7,8.4
+Fried Chole,100,201.9,8.2,30.6,3.7,8.5
+Loaded Chole,100,173.9,10.7,24.8,3.2,8.2
+Poha,100,130.0,2.5,25.0,2.5,1.8
+Tandoori Poha,100,144.7,2.3,24.6,2.8,1.9
+Boiled Poha,100,131.8,3.0,26.5,2.6,1.9
+Homestyle Poha,100,121.5,2.8,28.9,2.9,2.0
+Masala Poha,100,149.8,2.4,25.9,2.4,1.8
+Cheese Poha,100,137.6,2.6,23.2,2.6,2.0
+Loaded Poha,100,134.0,2.4,29.4,2.2,2.1
+Diet Poha,100,121.2,2.3,28.0,3.0,1.9
+Spicy Poha,100,143.7,2.7,25.0,2.3,1.8
+Upma,100,180.0,5.0,30.0,4.0,2.0
+Tandoori Upma,100,168.5,5.3,28.4,4.3,2.3
+Cheese Upma,100,184.1,5.3,28.0,3.9,1.9
+Classic Upma,100,189.0,5.3,33.9,4.5,2.2
+Masala Upma,100,197.1,5.4,32.9,4.6,1.8
+Grilled Upma,100,179.2,5.6,35.3,4.0,1.9
+High Protein Upma,100,171.0,5.5,27.6,4.7,2.4
+Diet Upma,100,167.8,5.3,30.4,4.2,1.9
+Spicy Upma,100,181.6,5.0,35.5,4.5,2.3
+Pav Bhaji,100,210.0,5.0,25.0,9.0,4.0
+Fried Pav Bhaji,100,237.7,5.2,25.8,8.8,4.5
+Veg Pav Bhaji,100,197.4,5.1,24.6,10.4,4.2
+Cheese Pav Bhaji,100,238.0,4.6,25.5,10.1,3.6
+Diet Pav Bhaji,100,211.2,4.8,23.5,8.7,4.0
+Grilled Pav Bhaji,100,189.6,5.6,23.8,9.2,4.4
+Boiled Pav Bhaji,100,225.8,5.8,28.5,7.9,4.6
+High Protein Pav Bhaji,100,192.1,4.5,29.4,11.1,4.3
+Homestyle Pav Bhaji,100,231.1,5.6,25.6,8.1,3.6
+Samosa,100,262.0,4.0,31.0,13.0,3.0
+Spicy Samosa,100,313.2,3.9,33.4,14.1,3.1
+Fried Samosa,100,264.3,4.0,31.0,12.0,3.2
+Cheese Samosa,100,246.3,4.2,36.3,13.1,3.4
+Diet Samosa,100,310.9,4.6,30.1,11.9,2.9
+Homestyle Samosa,100,291.0,4.5,34.0,12.1,3.4
+Veg Samosa,100,281.1,4.5,35.0,13.7,3.5
+Boiled Samosa,100,287.6,4.4,33.7,16.1,3.3
+Classic Samosa,100,249.6,3.7,32.0,12.8,2.9
+Roti,100,90.0,3.0,15.0,1.0,2.0
+Grilled Roti,100,82.8,3.4,13.8,1.2,2.3
+Spicy Roti,100,100.4,3.2,15.6,1.1,2.3
+Healthy Roti,100,109.2,3.1,17.1,1.1,2.0
+Boiled Roti,100,96.0,2.8,13.8,0.9,2.3
+High Protein Roti,100,91.8,3.3,15.8,0.9,1.9
+Homestyle Roti,100,94.8,3.1,15.9,0.9,2.0
+Diet Roti,100,89.9,3.1,15.0,1.1,2.3
+Veg Roti,100,101.4,2.8,13.9,1.2,2.0
+Paratha,100,260.0,5.0,30.0,12.0,3.0
+Masala Paratha,100,317.4,5.0,32.9,13.8,2.8
+Loaded Paratha,100,298.5,4.6,32.0,13.7,3.0
+Tandoori Paratha,100,245.6,5.6,35.5,15.6,3.5
+Diet Paratha,100,242.5,5.5,31.6,10.3,3.0
+Fried Paratha,100,320.6,5.0,33.9,11.2,3.6
+Spicy Paratha,100,248.1,4.9,34.1,12.9,3.2
+Boiled Paratha,100,301.2,5.3,33.0,14.9,3.3
+Cheese Paratha,100,288.3,4.7,28.6,13.9,3.3
+Palak Paneer,100,230.0,11.0,8.0,18.0,3.0
+Veg Palak Paneer,100,285.1,11.9,9.0,21.6,2.9
+Fried Palak Paneer,100,226.3,13.1,9.1,22.6,2.9
+Masala Palak Paneer,100,261.6,11.8,8.3,21.5,3.4
+Homestyle Palak Paneer,100,247.5,11.3,7.6,16.9,3.2
+Grilled Palak Paneer,100,277.3,10.1,8.4,18.3,3.5
+Classic Palak Paneer,100,264.3,11.6,7.5,16.0,2.8
+Spicy Palak Paneer,100,243.2,11.6,9.2,16.0,3.5
+Low Fat Palak Paneer,100,272.7,12.8,9.4,18.7,3.1
+Oats,100,389.0,17.0,66.0,7.0,11.0
+Spicy Oats,100,476.8,19.6,72.3,8.4,10.4
+Low Fat Oats,100,389.2,19.5,73.2,6.4,12.2
+Classic Oats,100,411.2,15.3,61.0,6.8,12.7
+Boiled Oats,100,424.8,19.0,69.8,6.3,10.9
+Veg Oats,100,391.1,15.5,67.7,8.5,11.4
+Loaded Oats,100,365.2,19.9,71.2,6.0,11.6
+Grilled Oats,100,383.0,16.0,67.9,7.9,10.7
+Tandoori Oats,100,406.8,18.7,61.1,9.0,10.1
+Brown Rice,100,123.0,2.7,25.0,1.0,1.8
+Healthy Brown Rice,100,112.6,2.7,25.3,1.2,1.8
+Veg Brown Rice,100,113.6,2.6,27.4,0.9,1.9
+Loaded Brown Rice,100,143.3,2.5,25.1,1.0,2.0
+Cheese Brown Rice,100,146.4,3.0,29.9,1.1,1.7
+Masala Brown Rice,100,116.5,3.0,29.6,0.9,1.7
+Grilled Brown Rice,100,144.8,3.1,24.9,1.0,1.8
+Classic Brown Rice,100,145.8,2.8,22.8,1.1,1.8
+Homestyle Brown Rice,100,147.8,2.5,27.4,1.0,2.1
+Quinoa,100,120.0,4.4,21.0,1.9,2.8
+Classic Quinoa,100,137.1,4.4,23.9,1.8,2.6
+Veg Quinoa,100,125.8,4.5,25.2,1.8,2.8
+Masala Quinoa,100,112.3,4.4,20.8,2.0,3.1
+Homestyle Quinoa,100,115.0,4.5,21.7,2.2,3.3
+Loaded Quinoa,100,133.8,4.5,22.9,2.3,2.6
+Spicy Quinoa,100,136.2,4.5,22.1,2.3,2.7
+Fried Quinoa,100,109.3,5.1,23.2,2.0,2.6
+Cheese Quinoa,100,117.9,4.8,21.2,2.4,2.5
+Sweet Potato,100,86.0,1.6,20.0,0.1,3.0
+Fried Sweet Potato,100,93.3,1.6,21.9,0.1,2.8
+Tandoori Sweet Potato,100,99.5,1.7,20.3,0.1,2.9
+Homestyle Sweet Potato,100,85.2,1.7,24.0,0.1,3.5
+Spicy Sweet Potato,100,92.2,1.5,23.1,0.1,3.5
+Masala Sweet Potato,100,90.8,1.5,22.1,0.1,3.0
+Cheese Sweet Potato,100,87.9,1.5,21.3,0.1,3.5
+Boiled Sweet Potato,100,98.8,1.9,21.8,0.1,3.2
+Veg Sweet Potato,100,81.1,1.5,18.8,0.1,2.7
+Avocado,100,160.0,2.0,9.0,15.0,7.0
+Healthy Avocado,100,161.3,2.4,10.0,16.3,7.9
+Diet Avocado,100,190.1,1.8,10.7,17.1,7.2
+Spicy Avocado,100,182.1,2.0,10.5,18.0,7.6
+Homestyle Avocado,100,154.2,2.4,9.3,18.9,6.4
+Veg Avocado,100,151.0,1.9,8.5,14.9,7.8
+Fried Avocado,100,163.4,2.4,10.5,18.5,6.8
+Boiled Avocado,100,179.6,2.1,8.4,14.8,7.4
+Tandoori Avocado,100,172.1,1.9,10.6,13.8,7.7
+Broccoli,100,34.0,2.8,7.0,0.4,2.6
+Masala Broccoli,100,41.9,3.2,6.9,0.4,2.8
+Diet Broccoli,100,38.0,2.5,8.2,0.4,2.8
+Spicy Broccoli,100,34.2,2.7,8.0,0.4,2.7
+Loaded Broccoli,100,38.8,2.7,7.2,0.4,2.6
+Grilled Broccoli,100,32.3,3.2,7.0,0.5,2.6
+Tandoori Broccoli,100,35.3,3.2,7.4,0.4,2.5
+Boiled Broccoli,100,32.1,2.9,6.6,0.3,3.1
+Veg Broccoli,100,40.9,2.9,8.3,0.5,3.0
+Banana,100,89.0,1.1,23.0,0.3,2.6
+Veg Banana,100,95.6,1.1,20.9,0.4,2.7
+Diet Banana,100,110.2,1.1,23.1,0.3,2.7
+Masala Banana,100,107.6,1.2,23.9,0.3,3.0
+Spicy Banana,100,93.5,1.3,25.7,0.4,2.6
+Low Fat Banana,100,92.6,1.2,22.0,0.3,2.4
+Fried Banana,100,95.8,1.2,22.6,0.4,2.9
+Homestyle Banana,100,83.8,1.3,23.4,0.4,2.6
+Healthy Banana,100,109.3,1.2,22.1,0.3,2.7
+Apple,100,52.0,0.3,14.0,0.2,2.4
+Grilled Apple,100,49.5,0.4,13.2,0.3,2.4
+Veg Apple,100,54.0,0.3,16.1,0.2,2.5
+Fried Apple,100,56.1,0.3,15.0,0.2,2.2
+Masala Apple,100,52.8,0.3,14.3,0.2,2.8
+Spicy Apple,100,62.7,0.3,15.1,0.2,2.6
+Homestyle Apple,100,64.5,0.3,13.6,0.2,2.5
+Healthy Apple,100,56.3,0.3,15.9,0.2,2.8
+Diet Apple,100,51.2,0.3,15.5,0.2,2.5
+Almonds,100,579.0,21.0,22.0,50.0,12.0
+Classic Almonds,100,698.0,23.5,20.2,45.6,11.5
+Fried Almonds,100,587.0,23.1,23.3,49.6,11.4
+Veg Almonds,100,705.9,21.1,22.1,59.9,13.4
+Masala Almonds,100,651.5,23.3,23.8,46.8,11.7
+Low Fat Almonds,100,634.2,20.3,26.2,49.2,11.8
+Cheese Almonds,100,563.1,23.3,21.9,50.3,14.2
+Healthy Almonds,100,682.3,20.6,20.6,57.7,12.2
+Homestyle Almonds,100,719.7,24.1,26.1,60.6,11.8
+Peanut Butter,100,588.0,25.0,20.0,50.0,6.0
+High Protein Peanut Butter,100,570.8,26.5,23.6,58.2,5.6
+Masala Peanut Butter,100,655.9,26.9,19.5,57.6,6.4
+Boiled Peanut Butter,100,660.5,22.9,20.5,58.6,5.6
+Spicy Peanut Butter,100,687.8,22.5,21.3,63.4,6.1
+Homestyle Peanut Butter,100,721.6,29.1,20.9,47.0,7.1
+Veg Peanut Butter,100,595.3,27.3,23.4,44.5,6.4
+Tandoori Peanut Butter,100,639.3,27.9,23.6,63.0,5.7
+Low Fat Peanut Butter,100,710.8,23.8,23.5,64.9,6.1
+Pizza,100,266.0,11.0,33.0,10.0,2.3
+Homestyle Pizza,100,325.8,11.0,34.2,11.4,2.4
+Fried Pizza,100,322.2,10.3,34.7,9.7,2.6
+Masala Pizza,100,270.2,12.3,36.1,11.7,2.1
+High Protein Pizza,100,270.8,10.9,36.4,9.4,2.5
+Grilled Pizza,100,298.9,11.2,33.9,10.0,2.3
+Tandoori Pizza,100,248.3,13.1,34.4,12.7,2.1
+Cheese Pizza,100,275.1,11.4,32.3,10.0,2.5
+Boiled Pizza,100,292.7,10.8,33.3,9.6,2.5
+Burger,100,295.0,17.0,30.0,14.0,1.5
+Homestyle Burger,100,331.4,20.1,30.3,13.3,1.8
+High Protein Burger,100,314.9,17.6,35.9,14.3,1.7
+Fried Burger,100,359.7,19.2,34.2,17.1,1.7
+Classic Burger,100,335.7,18.3,34.1,15.2,1.6
+Tandoori Burger,100,302.9,20.0,28.0,17.1,1.8
+Healthy Burger,100,286.4,18.0,28.5,17.3,1.5
+Loaded Burger,100,335.7,19.0,31.4,17.6,1.6
+Boiled Burger,100,271.2,16.0,30.7,15.5,1.6
+Pasta,100,131.0,5.0,25.0,1.1,1.5
+Tandoori Pasta,100,152.1,5.4,22.8,1.1,1.4
+Cheese Pasta,100,163.5,5.9,23.0,1.4,1.4
+High Protein Pasta,100,136.6,5.7,28.2,1.4,1.6
+Masala Pasta,100,137.2,6.0,25.4,1.4,1.8
+Grilled Pasta,100,135.1,5.5,27.5,1.2,1.6
+Classic Pasta,100,133.8,4.8,26.5,1.2,1.7
+Loaded Pasta,100,128.1,4.5,22.7,1.1,1.7
+Veg Pasta,100,142.9,5.3,28.7,1.1,1.5
+Sushi,100,130.0,6.0,28.0,0.2,0.5
+High Protein Sushi,100,126.4,5.6,25.5,0.2,0.6
+Low Fat Sushi,100,119.2,6.7,28.6,0.2,0.5
+Masala Sushi,100,156.3,5.5,29.4,0.2,0.6
+Boiled Sushi,100,150.3,6.0,30.2,0.2,0.5
+Grilled Sushi,100,130.7,5.7,30.7,0.2,0.5
+Classic Sushi,100,119.8,7.1,32.6,0.3,0.5
+Tandoori Sushi,100,136.4,6.3,33.4,0.3,0.6
+Loaded Sushi,100,152.8,6.0,28.7,0.2,0.5
+Ramen,100,188.0,5.0,27.0,7.0,1.0
+Cheese Ramen,100,229.4,5.3,32.1,7.7,0.9
+Healthy Ramen,100,185.2,4.8,29.5,8.9,1.2
+Homestyle Ramen,100,175.3,5.6,25.8,6.8,1.1
+Low Fat Ramen,100,208.9,5.8,25.8,8.3,1.1
+Masala Ramen,100,206.0,5.2,31.3,7.0,1.2
+High Protein Ramen,100,170.2,5.9,32.1,6.3,1.2
+Fried Ramen,100,200.7,4.9,29.2,6.6,1.2
+Veg Ramen,100,205.5,5.7,27.4,7.6,1.0
+Tacos,100,156.0,9.0,13.0,8.0,2.0
+High Protein Tacos,100,190.3,9.1,13.3,8.8,1.9
+Spicy Tacos,100,148.4,8.8,15.3,8.9,2.1
+Healthy Tacos,100,148.7,9.0,13.2,9.8,2.1
+Homestyle Tacos,100,176.1,9.9,12.7,9.8,2.4
+Masala Tacos,100,175.4,9.4,12.4,9.7,1.9
+Boiled Tacos,100,179.7,9.4,15.3,8.8,2.2
+Tandoori Tacos,100,143.6,8.2,15.0,10.2,2.2
+Loaded Tacos,100,182.1,9.2,15.0,7.6,2.2
+Burrito,100,206.0,8.0,25.0,8.0,3.0
+Grilled Burrito,100,186.5,8.5,25.6,6.9,3.3
+Low Fat Burrito,100,224.0,7.9,26.3,9.3,3.1
+Healthy Burrito,100,253.2,7.6,29.4,8.7,2.9
+Homestyle Burrito,100,230.1,7.8,25.2,9.7,2.8
+Spicy Burrito,100,254.6,8.3,24.3,9.3,3.0
+Veg Burrito,100,245.1,7.4,29.9,9.1,2.7
+Masala Burrito,100,214.6,8.1,26.1,9.1,3.3
+Cheese Burrito,100,191.4,9.2,27.3,8.0,3.6
+Caesar Salad,100,180.0,7.0,7.0,15.0,2.0
+Boiled Caesar Salad,100,164.9,6.5,8.2,18.8,2.1
+Healthy Caesar Salad,100,164.1,8.3,7.0,19.2,2.2
+Grilled Caesar Salad,100,209.4,7.8,7.1,13.3,1.9
+Low Fat Caesar Salad,100,177.1,8.1,7.1,18.8,2.0
+Masala Caesar Salad,100,209.6,6.6,8.4,17.6,2.1
+Diet Caesar Salad,100,223.4,6.4,7.2,18.4,2.0
+Homestyle Caesar Salad,100,210.4,8.3,7.1,18.0,1.8
+High Protein Caesar Salad,100,179.2,8.4,7.3,15.2,2.4
+French Fries,100,312.0,3.4,41.0,15.0,3.8
+Classic French Fries,100,367.9,3.8,37.9,13.8,4.2
+Fried French Fries,100,350.0,3.8,40.8,13.5,3.4
+Tandoori French Fries,100,314.5,3.4,40.2,13.6,3.6
+Diet French Fries,100,329.8,3.6,41.9,12.9,3.8
+Cheese French Fries,100,291.0,3.7,40.9,15.4,3.8
+Veg French Fries,100,323.1,3.1,48.0,18.9,4.5
+Boiled French Fries,100,343.3,3.2,41.6,13.7,3.8
+High Protein French Fries,100,334.6,3.1,42.2,15.6,4.0
+Sandwich,100,250.0,12.0,28.0,9.0,2.0
+Boiled Sandwich,100,234.4,11.9,33.2,9.0,2.2
+Spicy Sandwich,100,295.4,12.0,28.0,11.0,2.3
+High Protein Sandwich,100,310.2,11.3,27.9,11.5,1.9
+Low Fat Sandwich,100,252.5,14.3,33.3,8.8,2.2
+Tandoori Sandwich,100,268.0,12.9,27.2,9.2,2.3
+Homestyle Sandwich,100,259.4,11.2,29.9,10.0,2.1
+Masala Sandwich,100,284.6,12.8,33.2,9.5,2.2
+Diet Sandwich,100,263.4,11.8,31.0,11.0,2.3
+Chicken Salad,100,280.1,4.3,25.5,10.7,2.6
+Protein Pancakes,100,100.4,3.1,16.4,0.9,2.0
+Egg Fried Rice,100,140.3,6.3,18.2,1.4,3.6
+Paneer Salad,100,217.7,6.3,25.8,5.2,1.2
+Chicken Wrap,100,139.6,5.4,23.6,1.1,1.7
+Tuna Salad,100,283.2,23.4,32.6,12.8,1.2
+Fruit Bowl,100,106.7,4.1,16.6,3.1,1.8
+Mixed Nuts,100,124.3,3.5,23.4,2.4,1.8
+Protein Bar,100,163.9,35.6,0.0,2.7,0.0
+Chicken Soup,100,176.5,9.2,22.1,6.4,3.1
+Lentil Soup,100,326.4,23.1,58.1,5.1,9.0
+Mushroom Soup,100,132.0,12.8,12.5,8.3,1.8
+Cottage Cheese,100,161.6,7.6,5.3,14.7,2.6
+Turkey Sandwich,100,64.9,2.6,9.3,0.4,0.8
+Grilled Vegetables,100,188.2,7.7,6.6,13.4,2.3
+Veg Salad,100,121.2,4.7,20.4,3.7,1.4
+Chicken Steak,100,140.0,2.3,7.9,12.5,8.6
+Scrambled Eggs,100,102.0,1.9,17.1,0.1,2.6
+Boiled Chicken,100,186.7,11.8,27.7,3.2,7.6
+Protein Oats,100,609.2,33.4,16.5,41.0,5.2
+Chai,100,60.0,1.5,8.0,2.0,0.0
+Aloo Paratha,100,262.0,6.0,40.0,9.0,4.0
+Paneer Paratha,100,290.0,11.0,34.0,12.0,3.0
+Gobhi Paratha,100,240.0,7.0,38.0,8.0,4.0
+Mooli Paratha,100,220.0,6.0,36.0,7.0,4.0
+Mix Veg Paratha,100,250.0,7.0,39.0,8.0,4.0
+Methi Paratha,100,260.0,8.0,40.0,8.0,5.0
+Palak Paratha,100,250.0,8.0,38.0,8.0,4.0
+Lachha Paratha,100,320.0,7.0,42.0,14.0,2.0
+Plain Paratha,100,300.0,7.0,45.0,10.0,3.0
+Ajwain Paratha,100,290.0,7.0,43.0,10.0,3.0
+Pyaz Paratha,100,240.0,6.0,40.0,7.0,3.0
+Cheese Paratha,100,330.0,12.0,35.0,16.0,2.0
+Egg Paratha,100,280.0,11.0,32.0,12.0,2.0
+Chicken Paratha,100,300.0,16.0,30.0,13.0,2.0
+Keema Paratha,100,310.0,15.0,31.0,14.0,2.0
+Sattu Paratha,100,270.0,10.0,42.0,7.0,6.0
+Besan Paratha,100,260.0,10.0,36.0,8.0,5.0
+Dal Paratha,100,250.0,9.0,38.0,7.0,5.0
+Butter Chicken,100,220.0,18.0,6.0,14.0,1.0
+Kadai Paneer,100,180.0,9.0,8.0,12.0,2.0
+Shahi Paneer,100,250.0,8.0,10.0,20.0,1.0
+Matar Paneer,100,170.0,8.0,12.0,10.0,3.0
+Malai Kofta,100,220.0,6.0,15.0,15.0,2.0
+Dal Makhani,100,160.0,7.0,18.0,7.0,6.0
+Chana Masala,100,165.0,8.0,27.0,3.0,8.0
+Aloo Gobi,100,110.0,3.0,15.0,4.0,4.0
+Bhindi Masala,100,120.0,3.0,12.0,6.0,4.0
+Baingan Bharta,100,95.0,2.0,10.0,5.0,4.0
+Sarson Ka Saag,100,90.0,4.0,8.0,4.0,4.0
+Kadhi Pakora,100,140.0,5.0,12.0,8.0,2.0
+Jeera Rice,100,140.0,3.0,28.0,2.0,0.5
+Peas Pulao,100,160.0,4.0,30.0,3.0,2.0
+Veg Pulao,100,150.0,4.0,28.0,3.0,2.0
+Paneer Pulao,100,190.0,7.0,24.0,7.0,1.5
+Chole Bhature,100,250.0,8.0,32.0,10.0,5.0
+Amritsari Kulcha,100,290.0,8.0,45.0,8.0,3.0
+Paneer Kulcha,100,300.0,10.0,42.0,10.0,3.0
+Stuffed Kulcha,100,280.0,7.0,44.0,8.0,3.0
+Missi Roti,100,240.0,9.0,35.0,7.0,6.0
+Makki Di Roti,100,220.0,5.0,45.0,3.0,5.0
+Rumali Roti,100,290.0,8.0,55.0,4.0,2.0
+Tandoori Roti,100,260.0,8.0,52.0,2.0,4.0
+Butter Naan,100,320.0,9.0,50.0,9.0,2.0
+Garlic Naan,100,310.0,9.0,48.0,8.0,2.0
+Paneer Naan,100,330.0,11.0,45.0,11.0,2.0
+Lassi,100,90.0,3.0,12.0,3.0,0.0
+Sweet Lassi,100,120.0,3.0,20.0,3.0,0.0
+Salted Lassi,100,70.0,3.0,8.0,3.0,0.0
+Boondi Raita,100,110.0,4.0,10.0,6.0,1.0
+Cucumber Raita,100,60.0,3.0,5.0,3.0,1.0
+Aloo Tikki,100,180.0,3.0,28.0,7.0,3.0
+Dahi Bhalla,100,170.0,6.0,22.0,6.0,2.0
+Papdi Chaat,100,250.0,6.0,35.0,10.0,3.0
+Golgappa,100,180.0,4.0,35.0,3.0,2.0

@@ -1,0 +1,383 @@
+{% extends "tracker/layout.html" %}
+{% load static %}
+
+{% block body %}
+
+<div id="food-diary">
+
+    <div class="container">
+
+        <h2 class="text-center mb-4">
+            {{ user.first_name }}'s Food Diary
+        </h2>
+
+        <!-- DATE FILTER -->
+
+        <form method="GET" class="mb-4 text-center">
+
+            <input
+                type="date"
+                name="date"
+                value="{{ selected_date|date:'Y-m-d' }}"
+                class="form-control w-25 d-inline"
+            >
+
+            <button
+                type="submit"
+                class="btn btn-primary"
+            >
+                View
+            </button>
+
+        </form>
+
+        <!-- BREAKFAST -->
+
+        <div class="card mb-4">
+
+            <div class="card-body">
+
+                <h3 class="card-title">
+                    Breakfast
+                </h3>
+
+                <table class="table table-bordered">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Name</th>
+                            <th>Calories</th>
+                            <th>Protein (g)</th>
+                            <th>Carbs (g)</th>
+                            <th>Fat (g)</th>
+                            <th>Fibre (g) </th>
+                            <th>Actions</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        {% for food_item in breakfast_food_items %}
+
+                        <tr>
+
+                            <td>{{ food_item.name }}</td>
+
+                            <td>{{ food_item.calories }}</td>
+
+                            <td>{{ food_item.protein }}</td>
+
+                            <td>{{ food_item.carbs }}</td>
+
+                            <td>{{ food_item.fat }}</td>
+
+                            <td>{{ food_item.fibre }} </td>
+
+                            <td>
+
+                                <a href="{% url 'editFood' food_item.id %}"
+                                   class="btn btn-warning btn-sm">
+
+                                    Edit
+
+                                </a>
+
+                                <a href="{% url 'deleteFood' food_item.id %}"
+                                   class="btn btn-danger btn-sm">
+
+                                    Delete
+
+                                </a>
+
+                            </td>
+
+                        </tr>
+
+                        {% empty %}
+
+                        <tr>
+
+                            <td colspan="6">
+
+                                No breakfast foods added.
+
+                            </td>
+
+                        </tr>
+
+                        {% endfor %}
+
+                    </tbody>
+
+                </table>
+
+                <a href="{% url 'addFood' meal='breakfast' %}?date={{ selected_date|date:'Y-m-d' }}">
+
+                    <button class="btn btn-primary mt-2">
+
+                        Add Food
+
+                    </button>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- LUNCH -->
+
+        <div class="card mb-4">
+
+            <div class="card-body">
+
+                <h3 class="card-title">
+                    Lunch
+                </h3>
+
+                <table class="table table-bordered">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Name</th>
+                            <th>Calories</th>
+                            <th>Protein (g)</th>
+                            <th>Carbs (g)</th>
+                            <th>Fat (g)</th>
+                            <th>Fibre (g) </th>
+                            <th>Actions</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        {% for food_item in lunch_food_items %}
+
+                        <tr>
+
+                            <td>{{ food_item.name }}</td>
+
+                            <td>{{ food_item.calories }}</td>
+
+                            <td>{{ food_item.protein }}</td>
+
+                            <td>{{ food_item.carbs }}</td>
+
+                            <td>{{ food_item.fat }}</td>
+
+                            <td>{{ food_item.fibre }}</td>
+
+                            <td>
+
+                                <a href="{% url 'editFood' food_item.id %}"
+                                   class="btn btn-warning btn-sm">
+
+                                    Edit
+
+                                </a>
+
+                                <a href="{% url 'deleteFood' food_item.id %}"
+                                   class="btn btn-danger btn-sm">
+
+                                    Delete
+
+                                </a>
+
+                            </td>
+
+                        </tr>
+
+                        {% empty %}
+
+                        <tr>
+
+                            <td colspan="6">
+
+                                No lunch foods added.
+
+                            </td>
+
+                        </tr>
+
+                        {% endfor %}
+
+                    </tbody>
+
+                </table>
+
+                <a href="{% url 'addFood' meal='lunch' %}?date={{ selected_date|date:'Y-m-d' }}">
+
+                    <button class="btn btn-primary mt-2">
+
+                        Add Food
+
+                    </button>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- DINNER -->
+
+        <div class="card mb-4">
+
+            <div class="card-body">
+
+                <h3 class="card-title">
+                    Dinner
+                </h3>
+
+                <table class="table table-bordered">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Name</th>
+                            <th>Calories</th>
+                            <th>Protein (g)</th>
+                            <th>Carbs (g)</th>
+                            <th>Fat (g)</th>
+                            <th>Fibre (g) </th>
+                            <th>Actions</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        {% for food_item in dinner_food_items %}
+
+                        <tr>
+
+                            <td>{{ food_item.name }}</td>
+
+                            <td>{{ food_item.calories }}</td>
+
+                            <td>{{ food_item.protein }}</td>
+
+                            <td>{{ food_item.carbs }}</td>
+
+                            <td>{{ food_item.fat }}</td>
+
+                            <td>{{ food_item.fibre }}</td>
+
+                            <td>
+
+                                <a href="{% url 'editFood' food_item.id %}"
+                                   class="btn btn-warning btn-sm">
+
+                                    Edit
+
+                                </a>
+
+                                <a href="{% url 'deleteFood' food_item.id %}"
+                                   class="btn btn-danger btn-sm">
+
+                                    Delete
+
+                                </a>
+
+                            </td>
+
+                        </tr>
+
+                        {% empty %}
+
+                        <tr>
+
+                            <td colspan="6">
+
+                                No dinner foods added.
+
+                            </td>
+
+                        </tr>
+
+                        {% endfor %}
+
+                    </tbody>
+
+                </table>
+
+                <a href="{% url 'addFood' meal='dinner' %}?date={{ selected_date|date:'Y-m-d' }}">
+
+                    <button class="btn btn-primary mt-2">
+
+                        Add Food
+
+                    </button>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- TOTALS -->
+
+        <div class="card mb-4">
+
+            <div class="card-body">
+
+                <h3 class="card-title">
+                    Daily Totals
+                </h3>
+
+                <table class="table table-bordered">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Calories</th>
+                            <th>Protein</th>
+                            <th>Carbs</th>
+                            <th>Fat</th>
+                            <th>Fibre  </th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>{{ total_calories }}</td>
+
+                            <td>{{ total_protein }}</td>
+
+                            <td>{{ total_carbs }}</td>
+
+                            <td>{{ total_fat }}</td>
+
+                            <td>{{ total_fibre }}</td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
+

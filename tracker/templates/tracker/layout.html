@@ -1,0 +1,94 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% block title %}Fitness Tracker{% endblock %}</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="{% static 'tracker/styles.css' %}" rel="stylesheet">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        <script>
+            function checkScreenWidth() {
+                if (window.innerWidth > 991) {
+                    document.getElementById('navtoggler').style.display = 'none';
+                    document.querySelectorAll('.nav-link').forEach(function(link) {
+                        link.style.display = 'block';
+                    });
+                } else {
+                    document.getElementById('navtoggler').style.display = 'block';
+                    document.querySelectorAll('.nav-link').forEach(function(link) {
+                        link.style.display = 'none';
+                    });
+                }
+            }
+
+            // Call the function when the page loads
+            window.onload = function() {
+                checkScreenWidth();
+            };
+
+            // Call the function when the window is resized
+            window.onresize = function() {
+                checkScreenWidth();
+            };
+
+            function navbartoggler() {
+                if (document.querySelector('.nav-link').style.display == 'none') {
+                    document.querySelectorAll('.nav-link').forEach(function(link) {
+                        link.style.display = 'block';
+                    });
+                } else {
+                    document.querySelectorAll('.nav-link').forEach(function(link) {
+                        link.style.display = 'none';
+                    })
+                }
+            }
+        </script>
+        {% block script %}
+
+        {% endblock %}
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a id="index" class="navbar-brand" href="{% url 'index' %}">Tracker</a>
+
+            <button class="navbar-toggler" id="navtoggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="navbartoggler()">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    {% if user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'profile' %}">{{ user.first_name }}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'food' %}">Food</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'logout' %}">Log Out</a>
+                    </li>
+                    {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'login' %}">Log In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'register' %}">Register</a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </nav>
+
+        <div class="body">
+            {% block body %}
+            {% endblock %}
+        </div>
+    </body>
+
+</html>
