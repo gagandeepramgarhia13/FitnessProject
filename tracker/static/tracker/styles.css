@@ -74,6 +74,11 @@
     border-radius: 0.25rem;
 }
 
+.profile-box{
+    padding: 0 250px;
+    padding-top: 50px;
+}
+
 h2,
 h4,
 p {

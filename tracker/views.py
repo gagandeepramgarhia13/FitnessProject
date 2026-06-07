@@ -206,6 +206,7 @@ def edit_profile(request):
 
 
 @login_required
+
 def addFood(request, meal):
 
     # GET SELECTED DATE
