@@ -31,8 +31,8 @@ SECRET_KEY = 'django-insecure-123456789abcdefghijklmnopqrstuvwxyz'
 
 DEBUG ='False'
 
-# ALLOWED_HOSTS = ['*']
-ALLOWED_HOST = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
+# ALLOWED_HOST = ['localhost', '127.0.0.1']
 
 
 # Application definition
@@ -83,18 +83,18 @@ WSGI_APPLICATION = 'fitnesstracker.wsgi.application'
 
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-# DATABASES = {
-#     "default": dj_database_url.config(
-#         default=os.environ.get("DATABASE_URL")
-#     )
-# }
-
 DATABASES = {
-    "default": {
-    'ENGINE': 'django.db.backends.sqlite3',
-    'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    "default": dj_database_url.config(
+        default=os.environ.get("DATABASE_URL")
+    )
 }
+
+# DATABASES = {
+#     "default": {
+#     'ENGINE': 'django.db.backends.sqlite3',
+#     'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 AUTH_USER_MODEL = 'tracker.User'
 
